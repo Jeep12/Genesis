@@ -1,0 +1,63 @@
+<div class="row before-menu">
+  <div class="col-sm-4 logo">
+    <h2><a [routerLink]="['/home']">Genesis</a></h2>
+  </div>
+  <div class="col-sm-4 search">
+    <input type="text" placeholder="Buscar productos"><button class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+  </div>
+  <div class="col-sm-4 wrapper-login">
+   <span>Ayuda <i class="fa-solid fa-circle-question"></i> &nbsp;&nbsp;&nbsp; <button type="button" data-bs-toggle="modal" data-bs-target="#login" class="button-login"><i class="fa-solid fa-user"></i> Ingresar</button></span>
+  </div>
+</div>
+<!-- MODAL LOGIN-->
+<app-login></app-login>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary menu">
+  <div class="container-fluid">
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Hombre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Mujer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Accesorios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Deportivo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Calzado</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Mas
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Infantil</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li><a class="dropdown-item" href="#">Hombre</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Mujer</a></li>
+          </ul>
+        </li>
+
+      </ul>
+
+    </div>
+  </div>
+</nav>

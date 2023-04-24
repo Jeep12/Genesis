@@ -1,0 +1,104 @@
+
+/*ESTILOS DEL PRE MENU*/
+.before-menu {
+  background-color: #E2935F;
+
+  text-align: center;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Lobster Two', cursive;
+}
+.logo h2 a {
+  color: white;
+  letter-spacing: 5px;
+  text-decoration: none;
+}
+.logo h2:first-letter {
+  font-size: 30px;
+  font-weight: bold;
+  color: #c4560c;
+}
+
+.search input{
+  background-color: #E2935F;
+  border-top:1.5px solid white;
+  border-bottom:1.5px solid white;
+  border-left:1.5px solid white;
+  border-right:none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+  font-size: 13px;
+  padding:2.5px;
+
+}
+.search input::placeholder {
+  color: white;
+  text-align: center;
+  opacity: 1; /* Firefox */
+
+}
+.search input:focus {
+  outline-offset: 0px;
+  outline: none;
+  color: white;
+  background-color: #ee8945;
+  width: 220px;
+}
+.search-button {
+  font-size: 15px;
+  color: white;
+  background-color: #ee894500;
+  border-top:  1.5px solid white;
+  border-bottom:  1.5px solid white;
+  border-right: 1.5px solid white;
+  border-left: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+
+}
+.wrapper-login {
+  font-size: 13px ;
+  padding: 5px;
+  color: white;
+}
+.button-login {
+  background-color: #E2935F;
+  padding:2.5px;
+  border-radius: 5px;
+  color: white;
+  border: 1.5px solid white;
+  padding-left: 3px;
+}
+
+.button-login:hover {
+  background-color: #ee8945;
+}
+
+
+
+/*ESTILOS DEL MENU*/
+.navbar-nav li {
+  padding-left:10px ;
+}
+
+.menu {
+  font-size: 13px;
+  box-shadow: 0px 7px 22px -5px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 7px 22px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 7px 22px -5px rgba(0,0,0,0.75);
+}
+
+.dropdown-menu {
+  font-size: 13px;
+
+}
+
+/*Si el ancho del dispositivo es mayor o igual*/
+@media only screen and (min-width: 1366px)  {
+
+
+}

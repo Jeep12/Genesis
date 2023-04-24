@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "genesis-759ff": {
+      "hosting": {
+        "genesis": [
+          "genesis-759ff"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "genesis-759ff"
+  }
+}
